@@ -16,7 +16,7 @@
 		  <input type="text" id="email" name="email" required>
 		  <label for="password">Password:</label>
 		  <input type="password" id="password" name="password" required>
-		  <button type="submit">Log In</button>
+		  <button type="submit" onclick=" myFunction()">Log In</button>
 		</form>
 		<div class="forgot-password">
 		  <a href="#">Forgot Password?</a> <br> <br>
@@ -37,6 +37,9 @@
             .then(response => console.log('Success!', response))
             .catch(error => console.error('Error!', error.message))
         })
+		function myFunction() {
+   alert("ERROR");
+ }
       </script>
 
 </body>
